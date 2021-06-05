@@ -19,7 +19,6 @@ app.title('Recommender System')
 app.geometry('350x200')
 
 
-# Creating Labels
 tk.Label(app, text='Movie You Watched:',fg='#ff0000').place(x=25,y=25)
 tk.Label(app, text='Recommended:',fg='#ff0000').place(x=25,y=100)
 tk.Label(app, text='Also try:',fg='#ff0000').place(x=25,y=125)
